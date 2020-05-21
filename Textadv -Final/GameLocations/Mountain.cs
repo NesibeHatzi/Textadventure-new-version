@@ -11,9 +11,7 @@ namespace Program.GameLocations
             Items.Add (new Gun ());
 
             // Friendly
-            LocationFriendly = Friendly.CreateFriendly (Friendlies.Fairy);
-            Characters.Add (LocationFriendly);
-            FriendlyDescription = "Someone comes: it's the FRIENDLY_NAME. Do you want to talk (o)";
+            FriendlyDescription = " ";
 
             // Monster
             LocationMonster = Monster.CreateMonster (Monsters.Dragon);
